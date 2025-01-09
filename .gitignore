@@ -13,6 +13,9 @@ node_modules
 
 # START SECTION Product modules
 /comms
+/mywapp_common
+/groups
+/survey
 /dev_tools
 # END SECTION
 

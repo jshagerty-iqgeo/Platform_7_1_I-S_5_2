@@ -8,7 +8,7 @@
     "db_name": "myproj",
     "platform": {
         // The version of the IQGeo platform to use. Options are 7.0, and above
-        "version": "7.2",
+        "version": "7.1",
 
         // Dependency Options: ["memcached", "redis", "ldap", "saml", "oidc", "jwt"]
         // Please refer to the platform `Install & Configuration Guide` for more information regarding these dependencies.
@@ -38,7 +38,21 @@
         {
             "name": "comms",
             "version": "3.2"
+        },
+        {
+            "name": "mywapp_common",
+            "version": "6.0"
+        },
+        {
+            "name": "groups",
+            "version": "1.0"
+        },
+        {
+            "name": "survey",
+            "version": "6.0"
         }
+
+
     ],
 
     // (relative) path of files to exclude from pulling and updating
